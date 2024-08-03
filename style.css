@@ -1,0 +1,56 @@
+:root{
+    --back:black;
+}
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+
+    font-family: "spacetron";
+}
+@font-face{
+    font-family:spacetron;
+    src: url(spacetron.otf);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.495);
+}
+.main{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.page1{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("historical-background-1920-x-1200-pyzxip1ouy3jwtni.jpg");
+    background-size:cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-image:url("nasa.webp");
+    background-size:cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    width:100%;
+    height:200px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
